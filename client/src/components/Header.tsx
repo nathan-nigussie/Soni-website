@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import logo from "../components/logo.png";
 import { Button } from "@/components/ui/button";
 import { Menu, Home, Info, Car, Users, Phone } from "lucide-react";
 
@@ -17,11 +18,11 @@ export function Header() {
         <div className="flex items-center space-x-4">
           {/* Company Logo - Now h-12 w-12 */}
           <img
-            src="/logo.png"
+            src={logo}
             alt="Car Listing Site Logo"
             className="h-15 w-15 object-contain"
           />
-          <Link href="/">
+          <Link href="#/">
             <span className="font-bold text-xl cursor-pointer hover:text-primary transition-colors">
               Soni Paras Autovälitys
             </span>

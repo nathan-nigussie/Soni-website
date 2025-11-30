@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Mail, MapPin, Linkedin, MessageSquare, Send } from "lucide-react"; // MessageSquare for WhatsApp, Send for Telegram
-
+import logo from "../components/logo.png";
 const footerNavItems = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },
@@ -26,7 +26,7 @@ export function Footer() {
           <div className="flex items-center space-x-2 mb-4">
             {/* Company Logo */}
             <img
-              src="/logo.png"
+              src={logo}
               alt="Car Listing Site Logo"
               className="h-12 w-12 object-contain"
             />
