@@ -257,21 +257,7 @@ export const cars: Car[] = [
     description: "Reliable and high performance Hiace",
     status: "Sold",
   },
-  {
-    id: 11,
-    make: "Toyota",
-    model: "Hiace",
-    year: 2007,
-    price: 5200,
-    mileage: 325000,
-    images: car11_image,
-    color: "Silver Metalic",
-    transmission: "Manual",
-    fuelType: "Diesel",
-    engine: "2.5L D4D Engine",
-    description: "Reliable Van with elegant design and performance.",
-    status: "Sold",
-  },
+
   {
     id: 11,
     make: "Toyota",
