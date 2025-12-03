@@ -1,18 +1,21 @@
 import { Car } from "@/lib/carData";
 import { Card } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge"; // Assuming a Badge component exists in ui/badge.tsx
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Fuel, Gauge, Zap } from "lucide-react";
-import { Link } from "wouter";
+import { useLocation } from "wouter";
 
 type CarStatus = "Sold" | "Negotiated" | "Reserved" | null;
 
 interface CarCardProps {
   car: Car;
-  status: CarStatus; // New status property
+  status: CarStatus;
 }
 
 export default function CarCard({ car, status }: CarCardProps) {
+  // inside your component
+  const [, setLocation] = useLocation();
+
   const formattedPrice = new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "EUR",
@@ -34,7 +37,7 @@ export default function CarCard({ car, status }: CarCardProps) {
           </Badge>
         )}
         <img
-          src={car.images[0]} // FIX: Use the first image from the array
+          src={car.images[0]}
           alt={`${car.make} ${car.model}`}
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
           onError={e => {
@@ -85,11 +88,13 @@ export default function CarCard({ car, status }: CarCardProps) {
         </p>
 
         {/* View Details Button */}
-        <Link href={`/car/${car.id}`} asChild>
-          <Button className="w-full" variant="default">
-            View Details
-          </Button>
-        </Link>
+        <Button
+          className="w-full"
+          variant="default"
+          onClick={() => setLocation(`/car/${car.id}`)}
+        >
+          View Details
+        </Button>
       </div>
     </Card>
   );

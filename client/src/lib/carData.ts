@@ -1,4 +1,4 @@
-export type CarStatus = "Sold" | "Negotiated" | "Reserved" | null;
+export type CarStatus = "Available" | "Sold" | "Negotiated" | "Reserved" | null;
 
 export interface Car {
   id: number;
@@ -17,6 +17,12 @@ export interface Car {
 }
 
 // Placeholder images for a gallery of 4
+const car12_image = [
+  "https://res.cloudinary.com/dqzt9itgs/image/upload/v1764752062/WhatsApp_Image_2025-12-03_at_10.53.22_1_suzd6o.jpg",
+  "https://res.cloudinary.com/dqzt9itgs/image/upload/v1764752062/WhatsApp_Image_2025-12-03_at_10.53.22_bm1oa1.jpg",
+  "https://res.cloudinary.com/dqzt9itgs/image/upload/v1764752062/WhatsApp_Image_2025-12-02_at_17.42.24_pmjgnc.jpg",
+  "https://res.cloudinary.com/dqzt9itgs/image/upload/v1764752062/WhatsApp_Image_2025-12-03_at_10.53.22_2_i7dcld.jpg",
+];
 const car1_image = [
   "https://res.cloudinary.com/dqzt9itgs/image/upload/v1764255533/photo_2025-11-25_17-28-50_cqukvg.jpg",
   "https://res.cloudinary.com/dqzt9itgs/image/upload/v1764255638/photo_2025-11-25_17-28-19_uyztze.jpg",
@@ -83,13 +89,29 @@ const car11_image = [
   "https://res.cloudinary.com/dqzt9itgs/image/upload/v1764526740/WhatsApp_Image_2025-11-30_at_20.03.12_3_s84o60.jpg",
   "https://res.cloudinary.com/dqzt9itgs/image/upload/v1764526740/WhatsApp_Image_2025-11-30_at_20.03.12_4_fpro5r.jpg",
 ];
+
 export const cars: Car[] = [
+  {
+    id: 12,
+    make: "Toyota",
+    model: "Hiace",
+    year: 2010,
+    price: 9300,
+    mileage: 299700,
+    images: car12_image,
+    color: "White Metalic",
+    transmission: "Manual",
+    fuelType: "Diesel",
+    engine: "2.5L D4D Engine",
+    description: "Reliable Van with elegant design and performance.",
+    status: "Available",
+  },
   {
     id: 1,
     make: "Toyota",
     model: "Hiace",
     year: 2010,
-    price: 7500,
+    price: 10500,
     mileage: 196000,
     images: car1_image,
     color: "Blue Metalic",
@@ -233,6 +255,21 @@ export const cars: Car[] = [
     fuelType: "Gasoline",
     engine: "1.6L",
     description: "Reliable and high performance Hiace",
+    status: "Sold",
+  },
+  {
+    id: 11,
+    make: "Toyota",
+    model: "Hiace",
+    year: 2007,
+    price: 5200,
+    mileage: 325000,
+    images: car11_image,
+    color: "Silver Metalic",
+    transmission: "Manual",
+    fuelType: "Diesel",
+    engine: "2.5L D4D Engine",
+    description: "Reliable Van with elegant design and performance.",
     status: "Sold",
   },
   {
