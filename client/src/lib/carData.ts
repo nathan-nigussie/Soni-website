@@ -225,7 +225,7 @@ export const cars: Car[] = [
     fuelType: "Gasoline",
     engine: "1.8L 4-Cylinder",
     description: "Budget-friendly sedan with modern styling and reliability.",
-    status: "Sold",
+    status: "Available",
   },
   {
     id: 9,
