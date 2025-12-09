@@ -104,7 +104,7 @@ export const cars: Car[] = [
     fuelType: "Diesel",
     engine: "2.5L D4D Engine",
     description: "Reliable Van with elegant design and performance.",
-    status: "Available",
+    status: "Sold",
   },
   {
     id: 1,
@@ -120,7 +120,7 @@ export const cars: Car[] = [
     engine: "2.5L 4-Cylinder",
     description:
       "Reliable Van with excellent fuel economy and modern features.",
-    status: "Negotiated",
+    status: "Sold",
   },
   {
     id: 2,
