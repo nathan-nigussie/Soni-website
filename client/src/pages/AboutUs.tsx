@@ -23,7 +23,7 @@ export default function AboutUs() {
 
       <section className="mb-10">
         <h2 className="text-3xl font-semibold mb-4 border-b pb-2">
-          Global Reach: Specializing in International Export
+          Global Reach:- Specializing in International Export
         </h2>
         <p className="text-lg mb-4">
           Our expertise extends far beyond the Finnish market. We have developed{" "}
