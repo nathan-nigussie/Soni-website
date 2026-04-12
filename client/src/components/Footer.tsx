@@ -59,7 +59,7 @@ export function Footer() {
           <div className="space-y-2 text-sm text-muted-foreground">
             <div className="flex items-start space-x-2">
               <MapPin className="h-4 w-4 mt-1 flex-shrink-0" />
-              <p>Loading Address: Kumitehtaankatu, 04260 Kerava Finland</p>
+              <p>Loading Address: Likusterikatu 1, 02250 Espoo Finland</p>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4 flex-shrink-0" />
