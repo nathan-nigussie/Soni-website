@@ -12,7 +12,7 @@ const socialMediaLinks = [
     href: "https://www.linkedin.com/company/soni-paras-autov%C3%A4litys/?viewAsMember=true",
     name: "LinkedIn",
   },
-  { icon: MessageSquare, href: "https://w.app/dqvrvm", name: "WhatsApp" }, // Using MessageSquare for WhatsApp
+  // { icon: MessageSquare, href: "https://w.app/dqvrvm", name: "WhatsApp" }, // Using MessageSquare for WhatsApp
 
   { icon: Send, href: "https://t.me/SONIP2016", name: "Telegram" }, // Using Send for Telegram
 ];

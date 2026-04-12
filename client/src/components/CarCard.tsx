@@ -20,7 +20,7 @@ export default function CarCard({ car, status }: CarCardProps) {
     style: "currency",
     currency: "EUR",
     maximumFractionDigits: 0,
-  }).format(car.price);
+  });
 
   const formattedMileage = new Intl.NumberFormat("en-US").format(car.mileage);
 
@@ -62,7 +62,7 @@ export default function CarCard({ car, status }: CarCardProps) {
 
         {/* Price */}
         <div className="mb-3">
-          <p className="text-2xl font-bold text-primary">{formattedPrice}</p>
+          <p className="text-lg font-bold text-primary">{car.price}</p>
         </div>
 
         {/* Features Grid */}

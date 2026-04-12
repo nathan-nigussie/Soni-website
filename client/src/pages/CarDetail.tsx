@@ -36,7 +36,7 @@ export default function CarDetail() {
     currency: "EUR",
 
     maximumFractionDigits: 0,
-  }).format(car.price);
+  });
 
   const formattedMileage = new Intl.NumberFormat("en-US").format(car.mileage);
 
@@ -168,19 +168,21 @@ export default function CarDetail() {
             <div className="bg-card rounded-lg p-6 border border-border sticky top-8">
               <div className="mb-6">
                 <p className="text-sm text-muted-foreground mb-2">Price</p>
-                <p className="text-4xl font-bold text-primary">
-                  {formattedPrice}
-                </p>
+                <p className="text-lg font-bold text-primary">{car.price}</p>
               </div>
 
-              <div className="space-y-3 mb-6">
-                <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
+              <div className="space-y-3 mb-6 flex justify-center">
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=soniparasauto@gmail.com"
+                  target="_blank"
+                  className="bg-orange-800 hover:bg-orange-900 text-white text-center font-semibold py-2 px-8 text-lg rounded-xl shadow"
+                >
                   Contact Seller
-                </Button>
+                </a>
               </div>
 
               {/* Quick Info */}
-              <div className="bg-primary/10 dark:bg-primary/20 rounded-lg p-4 text-sm">
+              <div className="bg-primary/8 dark:bg-primary/8 rounded-lg p-4 text-sm">
                 <p className="font-semibold text-foreground mb-2">Quick Info</p>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>✓ Inspected & Certified</li>
