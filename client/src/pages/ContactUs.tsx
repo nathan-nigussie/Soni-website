@@ -28,7 +28,7 @@ export default function ContactUs() {
               <TableCell className="font-medium">
                 Phone (International)
               </TableCell>
-              <TableCell>+358 46 802 1566</TableCell>
+              <TableCell>+358 0407457931</TableCell>
             </TableRow>
             <TableRow>
               <TableCell className="font-medium">
