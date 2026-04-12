@@ -169,7 +169,7 @@ const car25_image = [
   "https://res.cloudinary.com/dqzt9itgs/image/upload/v1776000617/WhatsApp_Image_2026-04-12_at_16.02.26_qx0piy.jpg",
 ];
 
-const cars: Car[] = [
+export const cars: Car[] = [
   {
     id: 12,
     make: "Toyota",
