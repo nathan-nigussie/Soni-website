@@ -7,7 +7,7 @@ import ContactUs from "./pages/ContactUs";
 import CarDetail from "./pages/CarDetail";
 import NotFound from "./pages/NotFound";
 
-function AppRouter() {
+function RouterComponent() {
   return (
     <Router hook={useHashLocation}>
       <Switch>
@@ -21,4 +21,6 @@ function AppRouter() {
   );
 }
 
-export default AppRouter;
+export default RouterComponent;
+
+

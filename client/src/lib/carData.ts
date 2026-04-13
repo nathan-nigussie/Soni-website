@@ -187,10 +187,10 @@ const car28_image = [
   "https://res.cloudinary.com/dqzt9itgs/image/upload/v1776090044/WhatsApp_Image_2026-04-13_at_17.13.51_4_suzz6q.jpg",
 ];
 const car29_image = [
-  "https://res.cloudinary.com/dqzt9itgs/image/upload/v1776090057/WhatsApp_Image_2026-04-13_at_17.18.13_10_tz3pcr.jpg",
-  "https://res.cloudinary.com/dqzt9itgs/image/upload/v1776090057/WhatsApp_Image_2026-04-13_at_17.18.13_4_kjsqwq.jpg",
-  "https://res.cloudinary.com/dqzt9itgs/image/upload/v1776090057/WhatsApp_Image_2026-04-13_at_17.18.13_11_xu0q1p.jpg",
-  "https://res.cloudinary.com/dqzt9itgs/image/upload/v1776090057/WhatsApp_Image_2026-04-13_at_17.18.14_lysyns.jpg",
+  "https://res.cloudinary.com/dqzt9itgs/image/upload/v1776092560/WhatsApp_Image_2026-04-13_at_17.58.21_2_k1ojmc.jpg",
+  "https://res.cloudinary.com/dqzt9itgs/image/upload/v1776092560/WhatsApp_Image_2026-04-13_at_17.58.21_3_ghpp4t.jpg",
+  "https://res.cloudinary.com/dqzt9itgs/image/upload/v1776092561/WhatsApp_Image_2026-04-13_at_17.58.21_satqpw.jpg",
+  "https://res.cloudinary.com/dqzt9itgs/image/upload/v1776092562/WhatsApp_Image_2026-04-13_at_17.58.21_1_o5gsdv.jpg",
 ];
 export const cars: Car[] = [
   {
