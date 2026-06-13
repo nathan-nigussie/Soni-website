@@ -281,7 +281,7 @@ export const cars: Car[] = [
     id: 3,
     make: "Toyota",
     model: "Hiace",
-    year: 199,
+    year: 1999,
     price: "Price up on request",
     mileage: 310000,
     images: car37_image,
@@ -290,7 +290,7 @@ export const cars: Car[] = [
     fuelType: "Diesel",
     engine: "2L Engine",
     description: "Excellent Condition with D4D engine.",
-    status: "Available",
+    status: "Sold",
   },
   {
     id: 4,
